@@ -22,12 +22,12 @@ function Header() {
     <>
       <div className="intro-container">
         <div className="navbar">
-          <a href="/"><div>{t('navbar.skills', 'default')}</div></a>
-          <a href="/"><div>{t('navbar.projects', 'default')}</div></a>
-          <a href="/"><div>{t('navbar.experience', 'default')}</div></a>
-          <a href="/"><div>{t('navbar.education', 'default')}</div></a>
-          <a href="/"><div>{t('navbar.references', 'default')}</div></a>
-          <a href="/"><div>{t('navbar.contact', 'default')}</div></a>
+          <a href="#section-skills"><div>{t('navbar.skills', 'default')}</div></a>
+          <a href="#section-projects"><div>{t('navbar.projects', 'default')}</div></a>
+          <a href="#section-timeline"><div>{t('navbar.experience', 'default')}</div></a>
+          <a href="#section-timeline"><div>{t('navbar.education', 'default')}</div></a>
+          <a href="#section-references"><div>{t('navbar.references', 'default')}</div></a>
+          <a href="#section-contact"><div>{t('navbar.contact', 'default')}</div></a>
           <div className="change-lang" onClick={() => changeLanguage()}>{t('navbar.lang', 'default')}</div>
         </div>
 

@@ -5,15 +5,19 @@ function Project ( props ) {
 
       <div className="project-title">
         <div>{props.title}</div>
-        <div>
-          <a href={props.github} target="_blank" rel="noreferrer nofollow">
-            <i className="fab fa-github"></i>
-          </a>
-          { props.website && 
-              <a href={props.website} target="_blank" rel="noreferrer nofollow">
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-          }
+        <div className="project-links">
+          <div>
+            <a href={props.github} target="_blank" rel="noreferrer nofollow">
+              <i className="fab fa-github"></i>
+            </a>
+          </div>
+            { props.website && 
+              <div>
+                <a href={props.website} target="_blank" rel="noreferrer nofollow">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            }
         </div>
       </div>
 

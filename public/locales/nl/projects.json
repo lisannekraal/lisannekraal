@@ -1,3 +1,18 @@
 {
-  "title": "Projecten"
+  "title": "Projecten",
+  "projects": {
+    "catcall": {
+      "title": "CATCALLS OF AMS",
+      "content": "Al jaren volg ik bottom-up initiatieven als @catcallsrotterdam en @catcallsamsterdam. Zij delen expliciete 'catcalls' door ze letterlijk op de stoep te krijten en zorgen hierbij voor meer bewustwording rondom straatintimidatie. Ik zag vele kansen voor dit initief in het communiceren van hun verhaal dus nam contact op. Mijn applicatie brengt niet alleen hun data visueel in kaart (letterlijk), maar biedt ook een platform om nieuwe catcalls aan te geven en als moderator nieuwe meldingen te beheren.",
+      "stack": "Stack: NodeJs, Koa, MongoDB, GraphQL en React.",
+      "github": "https://github.com/lisannekraal/catcalls",
+      "website": "https://catcallsofamsterdam.herokuapp.com/"
+    },
+    "bookclub": {
+      "title": "UNDER CONSTRUCTION: BOOK CLUB",
+      "content": "Tijdens de eerste lockdown begon ik met het voorlezen voor vrienden en familie op Whatsapp. We lazen samen een boek door mijn dagelijkse audioberichten. Omdat dit zo'n success was, dacht ik dat er een betere manier zou zijn om mijn audiobestanden te delen onder de leden van deze boekenclub. Grootste uitdaging: het werken met audio data en bijhouden van de user's voortgang in elk bestand.",
+      "stack": "Stack: NodeJS, Express, MongoDB Atlas, Bootstrap.",
+      "github": "https://github.com/lisannekraal/bookclub"
+    }
+  }
 }

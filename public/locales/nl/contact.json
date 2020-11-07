@@ -1,0 +1,24 @@
+{
+  "title": "Contact",
+  "form": {
+    "title": "Even hoi zeggen",
+    "sub-title": "Laat je gegevens achter en ik neem contact met je op.",
+    "name": "Naam",
+    "contact-type": "Hoe wil je graag benaderd worden?",
+    "email": "Email",
+    "phone": "Bellen",
+    "email-details": "E-mailadres",
+    "phone-details": "Telefoonnummer",
+    "text": "Jouw bericht",
+    "send": "SEND"
+  },
+  "contact": {
+    "title": "Contactgegevens",
+    "job-title": "Junior developer op zoek naar een baan",
+    "language": "Spreekt Engels en Nederlands",
+    "location": "Woont in Amsterdam (Noord)",
+    "phone": "Bel direct op",
+    "email": "Stuur een e-mail",
+    "social": "Of vind mij hier"
+  }
+}

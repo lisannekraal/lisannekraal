@@ -10,9 +10,7 @@
     "email-details": "Your email address",
     "phone-details": "Your phone number",
     "text": "Your message",
-    "clear": "CLEAR",
-    "send": "SEND",
-    "thanks": "Thank you! Looking forward to meet."
+    "send": "SEND"
   },
   "contact": {
     "title": "Contact details",

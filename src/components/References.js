@@ -9,7 +9,7 @@ function References() {
   const { t } = useTranslation(['references']);
 
   return (
-    <div className="container">
+    <div className="container" id="section-references">
       <h1>{t('title', 'default')}</h1>
 
       <div className="references-container">

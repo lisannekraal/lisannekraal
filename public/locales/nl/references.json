@@ -1,0 +1,20 @@
+{
+  "title": "Referenties",
+  "references": {
+    "coyan": {
+      "name": "DR. COYAN C. TROMP",
+      "title": "Assistent professor en curriculum developer Future Planet Studies",
+      "content": "Kan alles vertellen over de studie Future Planet Studies en mij als student."
+    },
+    "niels": {
+      "name": "DR. NIELS VAN MANEN",
+      "title": "UNIGIS coordinator VU University",
+      "content": "Aanspreekpunt voor de MSc en heeft mij aangenomen voor het programma op basis van mijn voorkennis."
+    },
+    "serge": {
+      "name": "MR. SERGE KNOOK",
+      "title": "General Manager We Canteen tot september 2018; Managing director bij LEO",
+      "content": "Destijds mijn manager bij We Canteen en kent mij goed in professionele setting."
+    }
+  }
+}

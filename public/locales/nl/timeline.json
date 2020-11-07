@@ -1,8 +1,63 @@
 {
   "title": "Werkervaring & opleiding",
   "tl-codeworks": {
-    "title": "THE WEB DEVELOPMENT BOOTCAMP",
+    "title": "WEB DEVELOPMENT IMMERSIVE",
     "sub-title": "CodeWorks / Berlijn",
-    "content": "Text"
+    "date": "september - november 2020",
+    "content": "Uitdagende bootcamp (8 weken programma met ma-za 12u per dag) met pre-course en toelatingstoets. Omvatte advanced JavaScript en vele front-end en back-end frameworks en tools om full-stack apps te bouwen. O.a. networking, NodeJS, Angular, React, data structures, algorithms, verschillende databases en unit testing."
+  },
+  "tl-gis": {
+    "title": "MSC GEOGRAPHICAL INFORMATION SCIENCES",
+    "sub-title": "VU University, Amsterdam",
+    "date": "2018 - heden",
+    "content": "Binnen en buiten mijn werk ben ik geinteresseerd in alles met een ruimtelijke component. Om mijn kennis van BSc geografie op te frissen, startte ik een parttime programma dat gaat om alles rondom kaarten en geodata. UNIGIS is een programma voor professionals met vakken als Advanced GIS (ArcGIS/QGIS), database design en toepassing, programmeren met GIS (Python/Shapely) en geovisualisatie."
+  },
+  "tl-webdev": {
+    "title": "THE WEB DEVELOPMENT BOOTCAMP",
+    "sub-title": "Udemy / remote",
+    "date": "april - juni 2020",
+    "content": "Ondersteunde mijn initiele proces in het worden van een self-taught developer. Omvatte HTML, CSS, JavaScript, Express, MongoDB, Bootstrap, NodeJS, user authentication en responsive design."
+  },
+  "tl-projectmanager": {
+    "title": "PROJECT MANAGER",
+    "sub-title": "Freelance",
+    "date": "2019",
+    "content": "O.a. als product owner bij Fairchain Foundation. Ik was verantwoordelijk voor de ontwikkeling van een chocoladereep met transparante keten (d.m.v. blockchain). Ik werkte samen met UX/UI designers, een campagne-team en stakeholders als UNDP."
+  },
+  "tl-wecanteen": {
+    "title": "FOOD SCOUT",
+    "sub-title": "D&B The Facility Group / We Canteen / Amstelveen",
+    "date": "2016 - 2018",
+    "content": "Verantwoordelijk voor het scouten, selecteren en coachen van food entrepeneurs. Begeleidde >100 ondernemers d.m.v. een onboarding proces. Ontwikkelde en voerde alle intakes, roosters, trainings, audits en evaluaties."
+  },
+  "tl-kitchenroulette": {
+    "title": "CO-FOUNDER",
+    "sub-title": "Kitchen Roulette / Amsterdam",
+    "date": "2015 - 2016",
+    "content": "Startup met voedsel als hoofdingredient: evenementen waarbij vreemden bijeen gebracht worden, gebruik makend van een algoritme (Ruby on Rails). Verantwoordelijk voor het lanceren van een succesvolle pilot met 11 evenementen voor een divers publiek. Coordineerde een team van zes, een stagiaire en organisatoren in andere steden."
+  },
+  "tl-copekcabana": {
+    "title": "BESTUURSLID",
+    "sub-title": "Copekcabana / Amsterdam",
+    "date": "2016 - 2020",
+    "content": "Woomvorm van de toekomst (wooncoöp) in ontwikkeling voor laag- en midden inkomens in Amsterdam-Noord"
+  },
+  "tl-fps": {
+    "title": "BSC FUTURE PLANET STUDIES",
+    "sub-title": "University of Amsterdam / Amsterdam",
+    "date": "2010 - 2014",
+    "content": "Future Planet Studies leidt studenten op tot bruggenbouwers: een interdisciplinair perspectief op de mondiale uitdagingen van deze tijd. Ik studeerde af met een Major in Sociale Geografie en een extra minor in Milieu- en Maatschappijwetenschappen bij de Universiteit Utrecht (2013)."
+  },
+  "tl-yoga": {
+    "title": "YOGA TEACHER TRAINING",
+    "sub-title": "Karma Techers / Vancouver",
+    "date": "2014",
+    "content": ""
+  },
+  "tl-veerhuis": {
+    "title": "KOOKVRIJWILLIGER",
+    "sub-title": "Hospice Het Veerhuis / Amsterdam",
+    "date": "2013 - 2014",
+    "content": "Kookte op wekelijkse basis voor de handvol bewoners van het hospice."
   }
 }

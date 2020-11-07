@@ -5,7 +5,7 @@ function Contact() {
   const { t } = useTranslation(['contact']);
 
   return (
-    <div className="container">
+    <div className="container" id="section-contact">
       <div className="contact-container">
 
         <Form />

@@ -23,7 +23,7 @@ function Timeline() {
   const studyArrow = { borderRight: '7px solid  #e27d60' }
 
   return (
-    <div className="container">
+    <div className="container" id="section-timeline">
       <h1>{t('title', 'default')}</h1>
       <VerticalTimeline>
         <TimelineElem contentStyle={studyStyle} contentArrowStyle={studyArrow} name="codeworks" icon={Codeworks} />

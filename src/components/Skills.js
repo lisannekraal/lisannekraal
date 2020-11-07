@@ -27,7 +27,7 @@ function Skills() {
   const { t } = useTranslation(['skills']);
 
   return (
-    <div className="container">
+    <div className="container" id="section-skills">
       <h1>{t('title', 'default')}</h1>
       <div className="skills-container">
 
