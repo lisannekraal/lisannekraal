@@ -1,31 +1,17 @@
 import React, {useState} from "react";
-
-
-
+import { useTranslation } from 'react-i18next';
 
 function Facts() {
-    
+    const { t } = useTranslation(['facts']);
     const [randomNumber, setRandomNumber] = useState(0)
     
     const generateRandomNumber = () => {
         const randomNumber = Math.floor(Math.random() * randomFacts.length);
+        console.log(randomFacts);
         setRandomNumber(randomNumber)
     }
 
-    const randomFacts = [
-      "loves maps and infographics",
-      "hosted living-room restaurants ('13) and ramen pop-ups ('17)",
-      "finished the famous Nijmeegse Vierdaagse ('18)",
-      "used to host workshops in kimchi making ('15)",
-      "traveled solo for longer periods of time (Canada '14, Australia '16, Thailand '18)",
-      'shares a car with friends (2014-present) that is organized by a self-built app',
-      'wrote an article on coffee in beer',
-      "got interested in programming through a course in Python",
-      "during programming, loves to listen to Marconi Union, Four Tet or Rival Consoles",
-      "is quite a feminist",
-      "is originally from Rotterdam area",
-      "'s favorite color is yellow"
-    ];
+    const randomFacts = t('list', { returnObjects: true });
 
     return (
       <div className='fact-container'>
