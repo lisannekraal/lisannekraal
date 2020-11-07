@@ -1,0 +1,26 @@
+{
+  "title": "Contact",
+  "form": {
+    "title": "Just say hi",
+    "sub-title": "Leave your details and I'll get in touch.",
+    "name": "Your name",
+    "contact-type": "How do you wish to be contacted?",
+    "email": "Email",
+    "phone": "Phone",
+    "email-details": "Your email address",
+    "phone-details": "Your phone number",
+    "text": "Your message",
+    "clear": "CLEAR",
+    "send": "SEND",
+    "thanks": "Thank you! Looking forward to meet."
+  },
+  "contact": {
+    "title": "Contact details",
+    "job-title": "Junior developer looking for a job",
+    "language": "Can be spoken to in Dutch or English",
+    "location": "Located in Amsterdam (North area)",
+    "phone": "Call right away",
+    "email": "Send an email",
+    "social": "Or find me at"
+  }
+}

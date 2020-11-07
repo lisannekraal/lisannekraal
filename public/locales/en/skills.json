@@ -1,0 +1,45 @@
+{
+  "title": "Skills",
+  "stack": {
+    "title": "CURRENTLY USING",
+    "skills": {
+      "js": "JavaScript",
+      "node": "NodeJS",
+      "express": "Express",
+      "koa": "Koa",
+      "react": "React",
+      "html": "HTML",
+      "css": "CSS",
+      "postman": "Postman",
+      "vscode": "VSCode",
+      "mongo": "MongoDB (Atlas)",
+      "mongoose": "Mongoose",
+      "postgresql": "PostgreSQL",
+      "angular": "Angular",
+      "graphql": "GraphQL",
+      "git": "Git",
+      "heroku": "Heroku"
+    }
+  },
+  "experience": {
+    "title": "EXPERIENCE WITH",
+    "skills": {
+      "python": "Python",
+      "typescript": "TypeScript",
+      "jquery": "jQuery",
+      "mapbox": "Mapbox",
+      "qgis": "QGIS",
+      "arcgis": "ArcGIS"
+    }
+  },
+  "social": {
+    "title": "SOCIAL SKILLS",
+    "skills": {
+      "management": "Management of people, processes and events",
+      "leadership": "Leadership and coaching",
+      "personal": "Personal development",
+      "connecting": "Connecting people from various disciplines",
+      "project": "Project management tools (Asana, Trello, Scrum, Asana, Hubspot)"
+    }
+  }
+}

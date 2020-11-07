@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "skills" : "skills",
+    "projects" : "projecten",
+    "experience" : "ervaring",
+    "education" : "opleiding",
+    "references" : "referenties",
+    "contact" : "contact",
+    "lang" : "ENGLISH"
+  },
+  "welcome": {
+    "intro": "Hoi, ik ben",
+    "intro-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, libero non tempor elementum, arcu enim mattis risus, vitae blandit nulla massa vitae est. Aliquam ac tincidunt augue. Neem contact op via social (links) of laat hier je gegevens achter."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Skills",
+  "stack": {
+    "title": "HUIDIGE STACK",
+    "skills": {
+      "js": "JavaScript",
+      "node": "NodeJS",
+      "express": "Express",
+      "koa": "Koa",
+      "react": "React",
+      "html": "HTML",
+      "css": "CSS",
+      "postman": "Postman",
+      "vscode": "VSCode",
+      "mongo": "MongoDB (Atlas)",
+      "mongoose": "Mongoose",
+      "postgresql": "PostgreSQL",
+      "angular": "Angular",
+      "graphql": "GraphQL",
+      "git": "Git",
+      "heroku": "Heroku"
+    }
+  },
+  "experience": {
+    "title": "ERVARING MET",
+    "skills": {
+      "python": "Python",
+      "typescript": "TypeScript",
+      "jquery": "jQuery",
+      "mapbox": "Mapbox",
+      "qgis": "QGIS",
+      "arcgis": "ArcGIS"
+    }
+  },
+  "social": {
+    "title": "SOCIAL SKILLS",
+    "skills": {
+      "management": "Management van mensen, processes en evenementen",
+      "leadership": "Leiderschap en coaching",
+      "personal": "Persoonlijke ontwikkeling",
+      "connecting": "Verbinden van mensen uit verschillende disciplines",
+      "project": "Project management tools (Asana, Trello, Scrum, Asana, Hubspot)"
+    }
+  }
+}
