@@ -18,6 +18,13 @@ function Project ( props ) {
                 </a>
               </div>
             }
+            { props.loom && 
+              <div>
+                <a href={props.loom} target="_blank" rel="noreferrer nofollow">
+                  <i class="fas fa-video"></i>
+                </a>
+              </div>
+            }
         </div>
       </div>
 

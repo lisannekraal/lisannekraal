@@ -1,5 +1,6 @@
 body {
   font-family: monospace;
+  font-size: 14px;
   color: #f5f5f5;
   margin: 0;
   background-color: #1d1d1d;
@@ -156,10 +157,6 @@ a:hover {
   height: 20px;
 }
 
-.skills-box li {
-  list-style: none;
-}
-
 .skills-stack {
   max-width: 450px;
   min-width: 400px;
@@ -169,8 +166,13 @@ a:hover {
   height: 40px;
 }
 
-.stack-row {
+.skills-logo .stack-row {
   height: 55px;
+}
+
+.skills-description .stack-row {
+  height: 40px;
+  padding-top: 13px;
 }
 
 .skills-content {
@@ -180,8 +182,13 @@ a:hover {
   text-align: center;
 }
 
-.skills-row {
+.skills-logo .skills-row {
   height: 75px;
+}
+
+.skills-description .skills-row {
+  height: 50px;
+  padding-top: 21px;
 }
 
 .social-skills {
@@ -191,17 +198,21 @@ a:hover {
   padding-right: 10px;
 }
 
+.social-skills .skills-row {
+  height: 75px;
+}
+
 .project-container {
   display: flex;
   margin: 50px auto;
   min-width: 300px;
-  max-width: 900px;
+  max-width: 65%;
   border: 10px solid #60c7b9;
   background-color: #60c7b9;
 }
 
 .project-title {
-  width: 300px;
+  width: 25%;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -217,13 +228,13 @@ a:hover {
 }
 
 .project-links {
-  width: 200px;
+  width: 60%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .project-image {
-  width: 300px;
+  width: 28%;
   display: flex;
   align-items: center;
   background-color: #1d1d1d;
@@ -240,7 +251,7 @@ a:hover {
 }
 
 .project-content {
-  width: 300px;
+  width: 47%;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -314,7 +325,7 @@ form input {
 
 .contact-details {
   text-align: end;
-  width: 300px;
+  width: 320px;
   margin-top: 30px;
 }
 
