@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import References from './components/References';
-import Facts from './components/Facts';
+import Facts from './components/facts';
 import ScrollArrow from './components/ScrollArrow';
 
 
