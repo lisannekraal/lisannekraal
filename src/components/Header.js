@@ -1,9 +1,14 @@
+import { useTranslation } from 'react-i18next';
+
+import DesktopNavbar from './DesktopNavbar';
+import MobileNavbar from './MobileNavbar';
+
+import './Header.css';
+import Codewars from '../codewars.png';
 import icon from '../IMG-20200415-WA0011.jpg';
 
-import { useTranslation } from 'react-i18next';
-import Codewars from '../codewars.png';
 
-function Header() {
+function Header(props) {
   const { t, i18n } = useTranslation(['header']);
 
   const changeLanguage = code => {
@@ -21,15 +26,8 @@ function Header() {
   return (
     <>
       <div className="intro-container">
-        <div className="navbar">
-          <a href="#section-skills"><div>{t('navbar.skills', 'default')}</div></a>
-          <a href="#section-projects"><div>{t('navbar.projects', 'default')}</div></a>
-          <a href="#section-timeline"><div>{t('navbar.experience', 'default')}</div></a>
-          <a href="#section-timeline"><div>{t('navbar.education', 'default')}</div></a>
-          <a href="#section-references"><div>{t('navbar.references', 'default')}</div></a>
-          <a href="#section-contact"><div>{t('navbar.contact', 'default')}</div></a>
-          <div className="change-lang" onClick={() => changeLanguage()}>{t('navbar.lang', 'default')}</div>
-        </div>
+        { props.dimensions.width > 800 ? <DesktopNavbar changeLanguage={changeLanguage} /> : <MobileNavbar changeLanguage={changeLanguage} /> }
+
 
         <div className="intro">
           <div className="socials">

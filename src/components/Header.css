@@ -1,0 +1,55 @@
+.intro-container {
+  max-width: 100%;
+  height: 95vh;
+  margin: 0 auto;
+  background: linear-gradient(
+                     rgba(20,20,20, 0.6), 
+                     rgba(20,20,20, 0.6)),
+                     url('../Asset2.png');
+  background-repeat: no-repeat;
+}
+
+.navbar-desktop {
+  max-width: inherit;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-desktop a {
+  padding: 20px;
+  min-width: 80px;
+}
+
+.navbar-desktop .change-lang {
+  padding: 20px;
+  min-width: 80px;
+  cursor: pointer;
+}
+
+.navbar-mobile {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-mobile i {
+  font-size: 40px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.navbar-mobile-content {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.navbar-mobile-content a {
+  padding: 15px;
+}
+
+.navbar-mobile-content div {
+  padding: 15px;
+}

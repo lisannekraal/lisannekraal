@@ -1,4 +1,5 @@
 import './App.css';
+import { useState, useEffect } from 'react';
 
 import Header from './components/Header';
 import Skills from './components/Skills';
@@ -13,11 +14,27 @@ import ScrollArrow from './components/ScrollArrow';
 
 
 function App() {
+  const [dimensions, setDimensions] = useState({ 
+    height: window.innerHeight,
+    width: window.innerWidth
+  })
+
+  useEffect(() => {
+    function handleResize() {
+      setDimensions({ height: window.innerHeight, width: window.innerWidth});
+      console.log(dimensions);
+    }
+
+    window.addEventListener('resize', handleResize);
+    return _ => {
+      window.removeEventListener('resize', handleResize);
+    }
+  })
 
   return (
     <div className="App">
       <ScrollArrow />
-      <Header />
+      <Header dimensions={dimensions} />
       <Skills />
       <Projects />
       <Timeline />
