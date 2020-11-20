@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import References from './components/References';
-import Facts from './components/facts';
+import Facts from './components/Facts';
 import ScrollArrow from './components/ScrollArrow';
 
 
@@ -38,9 +38,9 @@ function App() {
       <Skills />
       <Projects dimensions={dimensions} />
       <Timeline />
-      <References />
-      <Facts />
-      <Contact />
+      <References dimensions={dimensions} />
+      <Facts dimensions={dimensions} />
+      <Contact dimensions={dimensions} />
       <Footer />
     </div>
   );

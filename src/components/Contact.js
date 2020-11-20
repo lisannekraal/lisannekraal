@@ -1,16 +1,18 @@
 import { useTranslation } from 'react-i18next';
 import Form from './Form';
 
-function Contact() {
+import './Contact.css'
+
+function Contact(props) {
   const { t } = useTranslation(['contact']);
 
   return (
     <div className="container" id="section-contact">
-      <div className="contact-container">
+      <div className="contact-container" style={ props.dimensions.width < 1000 ? {flexDirection: 'column', alignItems: 'center'} : {}}>
 
-        <Form />
+        <Form dimensions={props.dimensions} />
 
-        <div className="contact-details">
+        <div className="contact-details" style={ props.dimensions.width < 1000 ? {alignSelf: 'flex-end', marginRight: '20%'} : {}}>
           <h2>{t('contact.title', 'default')}</h2>
           <div>
             <p>Lisanne Kraal</p>

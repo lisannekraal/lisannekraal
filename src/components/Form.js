@@ -1,7 +1,9 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation, composeInitialProps } from 'react-i18next';
 import React, { useState } from "react";
 
-function Form() {
+import './Contact.css'
+
+function Form(props) {
   const { t } = useTranslation(['contact']);
   const [status, setStatus] = useState("");
 
@@ -29,6 +31,7 @@ function Form() {
       onSubmit={submitForm}
       action="https://formspree.io/f/xdopzjdk"
       method="POST"
+      style={ props.dimensions.width < 700 ? {width: '75%'} : {}}
     >
       <h2>{t('form.title', 'default')}</h2>
       <p>{t('form.sub-title', 'default')}</p>

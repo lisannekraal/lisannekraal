@@ -3,6 +3,7 @@ import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { useTranslation } from 'react-i18next';
 import TimelineElem from './TimelineElem';
+import './Timeline.css';
 
 import Codeworks from '../codeworks.png';
 import GIS from '../gis.png';
