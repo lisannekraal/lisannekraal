@@ -3,8 +3,8 @@
   "projects": {
     "catcall": {
       "title": "CATCALLS OF AMS",
-      "content": "Als solo project creëerde ik een MVP voor Catcalls of Amsterdam. Als onderdeel van een wereldwijde beweging, bevechten zij straatintimidatie door 'catcalls' letterlijk te stoepkrijten. Omdat het zo'n belangrijk thema is wat meer aandacht verdient, heb ik contact opgenomen om samen te werken aan een kaart visualizatie en platform om nieuwe catcalls te melden. Dit wordt een oplossing voor het managen van hun datastromen, gezien catcalls momenteel gemeld worden via Instagram DM en opgeslagen in een Excel. Daarnaast verbreed een kaart de communicatiemogelijkheden van de data. Momenteel ben ik de app aan het uitbreiden met moderator features en andere steden. In production: januari 2021.",
-      "stack": "Stack: NodeJs, Koa, MongoDB, GraphQL en React.",
+      "content": "Een interactieve kaart applicatie voor bestaande initiatieven rondom straatintimidatie. Belangrijkste features: visualizeren van de data, fungeren als platform voor het melden van een nieuwe catcall en het managen/verifiëren van inkomende meldingen als moderator. Dit biedt een data oplossing voor Catcalls of Amsterdam, wat onderdeel is van een wereldwijd netwerk van 150 soortgelijke initiatieven. In productie: januari 2021.",
+      "stack": "Stack: NodeJs, Koa, MongoDB, GraphQL en React",
       "github": "https://github.com/lisannekraal/catcalls",
       "website": "https://catcallsofamsterdam.herokuapp.com/",
       "loom": ""

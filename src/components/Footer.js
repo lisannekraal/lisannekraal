@@ -5,8 +5,7 @@ function Footer() {
 
   return (
     <div className="footer">
-      <div><a href="/"><i className="fas fa-chevron-up"></i></a></div>
-        <div>{t('credits', 'default')}</div>
+      <div>{t('credits', 'default')}</div>
     </div>
   );
 }

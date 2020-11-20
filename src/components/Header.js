@@ -60,10 +60,6 @@ function Header() {
           </div>
         </div> 
 
-        <div className="arrowDown">
-          <a href="/"><i className="fas fa-chevron-down"></i></a>
-        </div>
-
       </div>
     </>
   );
