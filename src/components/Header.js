@@ -23,14 +23,25 @@ function Header(props) {
     }
   };
 
+  const socialsDesktop = {
+    display: "flex",
+    flexDirection: "column",
+    position: "fixed"
+  };
+
+  const socialsMobile = {
+    display: "flex",
+    flexDirection: "column",
+  }
+
   return (
     <>
       <div className="intro-container">
-        { props.dimensions.width > 800 ? <DesktopNavbar changeLanguage={changeLanguage} /> : <MobileNavbar changeLanguage={changeLanguage} /> }
+        { props.dimensions.width > 1000 ? <DesktopNavbar changeLanguage={changeLanguage} /> : <MobileNavbar changeLanguage={changeLanguage} /> }
 
 
         <div className="intro">
-          <div className="socials">
+          <div className="socials" style={props.dimensions.width > 1200 ? socialsDesktop : socialsMobile}>
             <div><a href="https://github.com/lisannekraal" target="_blank" rel="noreferrer nofollow">
               <i className="fab fa-github"></i>
             </a></div>
@@ -54,7 +65,7 @@ function Header(props) {
           <div className="intro-text">
             <div className="portrait"><img src={icon} alt="" /></div>
             <div className="header">{t('welcome.intro', 'default')} <span class="intro-name">LISAN</span></div>
-            <div className="content">{t('welcome.intro-content', 'default')}</div>
+            <div className="intro-content">{t('welcome.intro-content', 'default')}</div>
           </div>
         </div> 
 
