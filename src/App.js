@@ -36,7 +36,7 @@ function App() {
       <ScrollArrow />
       <Header dimensions={dimensions} />
       <Skills />
-      <Projects />
+      <Projects dimensions={dimensions} />
       <Timeline />
       <References />
       <Facts />

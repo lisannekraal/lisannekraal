@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
+import './Skills.css';
+
 import Javascript from '../javascript.png';
 import Nodejs from '../nodejs.png';
 import Express from '../expressjs-icon.svg';
