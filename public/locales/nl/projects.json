@@ -3,7 +3,7 @@
   "projects": {
     "catcall": {
       "title": "CATCALLS OF AMS",
-      "content": "Een interactieve kaart applicatie voor bestaande initiatieven rondom straatintimidatie. Belangrijkste features: visualizeren van de data, fungeren als platform voor het melden van een nieuwe catcall en het managen/verifiëren van inkomende meldingen als moderator. Dit biedt een data oplossing voor Catcalls of Amsterdam, wat onderdeel is van een wereldwijd netwerk van 150 soortgelijke initiatieven. In productie: januari 2021.",
+      "content": "Een interactieve kaart applicatie voor bestaande initiatieven rondom straat-intimidatie. Belangrijkste features: visualizeren van de data, fungeren als platform voor het melden van een nieuwe catcall en het managen/verifiëren van inkomende meldingen als moderator. Dit biedt een data oplossing voor Catcalls of Amsterdam, wat onderdeel is van een wereldwijd netwerk van 150 soortgelijke initiatieven. In productie: januari 2021.",
       "stack": "Stack: NodeJs, Koa, MongoDB, GraphQL en React",
       "github": "https://github.com/lisannekraal/catcalls",
       "website": "https://catcallsofamsterdam.herokuapp.com/",
@@ -11,7 +11,7 @@
     },
     "bookclub": {
       "title": "UNDER CONSTRUCTION: BOOK CLUB",
-      "content": "Tijdens de eerste lockdown begon ik met het voorlezen voor vrienden en familie op Whatsapp. We lazen samen een boek door mijn dagelijkse audioberichten. Omdat dit zo'n success was, dacht ik dat er een betere manier zou zijn om mijn audiobestanden te delen onder de leden van deze boekenclub. Grootste uitdaging: het werken met audio data en bijhouden van de user's voortgang in elk bestand.",
+      "content": "Tijdens de eerste lockdown begon ik met het voorlezen voor vrienden en familie op Whatsapp. We lazen samen een boek door mijn dagelijkse audioberichten. Omdat dit zo'n succes was, dacht ik dat er een betere manier zou zijn om mijn audiobestanden te delen onder de leden van deze boekenclub. Grootste uitdaging: het werken met audio data en bijhouden van de users' voortgang in elk bestand.",
       "stack": "Stack: NodeJS, Express, MongoDB Atlas, Bootstrap.",
       "github": "https://github.com/lisannekraal/bookclub"
     }

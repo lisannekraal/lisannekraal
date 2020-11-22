@@ -10,13 +10,13 @@
     "title": "MSC GEOGRAPHICAL INFORMATION SCIENCES",
     "sub-title": "VU University, Amsterdam",
     "date": "2018 - heden",
-    "content": "Binnen en buiten mijn werk ben ik geinteresseerd in alles met een ruimtelijke component. Om mijn kennis van BSc geografie op te frissen, startte ik een parttime programma dat gaat om alles rondom kaarten en geodata. UNIGIS is een programma voor professionals met vakken als Advanced GIS (ArcGIS/QGIS), database design en toepassing, programmeren met GIS (Python/Shapely) en geovisualisatie."
+    "content": "Binnen en buiten mijn werk ben ik geïnteresseerd de ruimtelijke component. Om mijn kennis van BSc geografie op te frissen, startte ik een parttime programma dat gaat om alles rondom kaarten en geodata. UNIGIS is een programma voor professionals met vakken als Advanced GIS (ArcGIS/QGIS), database design en toepassing, programmeren met GIS (Python/Shapely) en geovisualisatie."
   },
   "tl-webdev": {
     "title": "THE WEB DEVELOPMENT BOOTCAMP",
     "sub-title": "Udemy / remote",
     "date": "april - juni 2020",
-    "content": "Ondersteunde mijn initiele proces in het worden van een self-taught developer. Omvatte HTML, CSS, JavaScript, Express, MongoDB, Bootstrap, NodeJS, user authentication en responsive design."
+    "content": "Ondersteunde mijn initiële proces in het worden van een self-taught developer. Omvatte HTML, CSS, JavaScript, Express, MongoDB, Bootstrap, NodeJS, user authentication en responsive design."
   },
   "tl-projectmanager": {
     "title": "PROJECT MANAGER",
@@ -34,7 +34,7 @@
     "title": "CO-FOUNDER",
     "sub-title": "Kitchen Roulette / Amsterdam",
     "date": "2015 - 2016",
-    "content": "Startup met voedsel als hoofdingredient: evenementen waarbij vreemden bijeen gebracht worden, gebruik makend van een algoritme (Ruby on Rails). Verantwoordelijk voor het lanceren van een succesvolle pilot met 11 evenementen voor een divers publiek. Coordineerde een team van zes, een stagiaire en organisatoren in andere steden."
+    "content": "Startup met voedsel als hoofdingrediënt: evenementen waarbij vreemden bijeen gebracht worden, gebruikmakend van een algoritme (Ruby on Rails). Verantwoordelijk voor het lanceren van een succesvolle pilot met 11 evenementen voor een divers publiek. Coördineerde een team van zes, een stagiaire en organisatoren in andere steden."
   },
   "tl-copekcabana": {
     "title": "BESTUURSLID",
@@ -50,7 +50,7 @@
   },
   "tl-yoga": {
     "title": "YOGA TEACHER TRAINING",
-    "sub-title": "Karma Techers / Vancouver",
+    "sub-title": "Karma Teachers / Vancouver",
     "date": "2014",
     "content": ""
   },
@@ -58,6 +58,6 @@
     "title": "KOOKVRIJWILLIGER",
     "sub-title": "Hospice Het Veerhuis / Amsterdam",
     "date": "2013 - 2014",
-    "content": "Kookte op wekelijkse basis voor de handvol bewoners van het hospice."
+    "content": "Kookte op wekelijkse basis voor de bewoners van het hospice."
   }
 }
